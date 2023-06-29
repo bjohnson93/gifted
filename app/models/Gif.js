@@ -2,8 +2,8 @@ export class Gif {
   constructor(data) {
     this.id = data._id
     this.tag = data.tag
-    this.url = data.url || 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1743&q=80'
-    this.opened = data.opened || false
+    this.url = data.url || 'https://media2.giphy.com/media/Zy4B8AIFB4YGk/giphy-downsized.gif?cid=9757a755kqvfxue997a6cfphipa6f9pyft6cheqvxmvn8ccw&ep=v1_gifs_search&rid=giphy-downsized.gif&ct=g'
+    this.opened = data.opened
     this.creatorId = data.creatorId
     this.updatedAt = data.updatedAt
   }
